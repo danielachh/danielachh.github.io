@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#666666;
+}
+#bienvenido{
+	color:#FFF;
+	font-size:20px;
+}
+#nombre{
+	color:#6BEFFA;
+	font-size:20px;
+}
+
+#estetica{
+	color:#66CCCC;
+	font-size:20px;
+}
+	

@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="icon" href="img/huella.png">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>My Pets</title>
+<link rel="StyleSheet" href="practica5CSS.css" type="text/css">
+<script type="text/javascript"><!--efecto para los botones -->
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script> 
+</head>
+<body onload="MM_preloadImages('img/btn incio sobre.png','img/btn nuestros doc sobre.png','img/btn nuestros sobre.png','img/btn tips sobre.png','img/btn acerca sobre.png','img/btn contactanos sobre.png')">
+<table width="1200" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td height="300" colspan=4 background="img/banner.png" width="1200"></td>
+  </tr>
+  <tr>
+    <td colspan=4>
+    <a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('inicio','','img/btn incio sobre.png',1)"><img src="img/btn incio.png" 	    name="inicio" width="200" height="90" border="0" id="inicio" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nuestros doctores','','img/btn nuestros doc sobre.png',1)"><img src=    "img/btn nuestros doc.png" name="nuestros doctores" width="200" height="90" border="0" id="nuestros doctores" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nuestros servicios','','img/btn nuestros sobre.png',1)"><img src="img/btn nuestros.png" name="nuestros servicios" width="200" height="90" border="0" id="nuestros servicios" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('tips sobre mascotas','','img/btn tips sobre.png',1)"><img src="img/btn tips.png" name="tips sobre mascotas" width="200" height="90" border="0" id="tips sobre mascotas" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('acerca de nosotros','','img/btn acerca sobre.png',1)"><img src="img/btn acerca.png" name="acerca de nosotros" width="200" height="90" border="0" id="acerca de nosotros" /></a><a href="#" onmouseout="MM_swapImgRestore()"onmouseover="MM_swapImage('contactanos','','img/btn contactanos sobre.png',1)"><img src="img/btn contactanos.png" name="contactanos" width="200" height="90" border="0" id="contactanos" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4" background="img/principal.jpg" width="1200" height="500"></td>
+  </tr>
+  <tr>
+    <td colspan="4"><span id="bienvenido">Bienvenido a nuestro sitio web,</span><span id="nombre"> My Pets Veterinary Center,</span> aquí realmente estamos interesados en otorgarle el mejor servicio a usted y a su mascota. Por ello siempre estamos con las puertas abiertas para otorgarle el mejor de los servicios</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+    <img src="img/foto1.jpg" width="326px" height="338" />
+    <img src="img/gifAnimado.gif" width="505px" height="327px" border="6" />
+    <img src="img/foto2.jpg" width="326px" height="338" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3">"Tienes la necesidad de dejar a tu mascota, nosotros nos hacemos cargo. No dudes en llamarnos y veras que tu experiencia será única<br />
+    <img src="img/imagen4.jpg"  border="5" width="352px" height="265px"/>
+    </td>
+    <td><img src="img/promo.png" width="576" height="339" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="right" bgcolor="#CCCCCC">
+    <img src="img/promos.gif" width="530px" height="450px"/>
+    </td>
+    <td colspan="2" align="left" bgcolor="#CCCCCC">
+    <img src="img/adopta.png" width="530px" height="450px"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"> 
+    <p id="estetica">Contrata tu servicio de estética, y 
+tu mascota se verá como nunca antes
+	</p>
+    <img src="img/estetica.jpg" width="389px" height="296px"/>
+	</td>
+  </tr>
+  <tr>
+    <td colspan="2">686 3-45-63-09</td>
+    <td colspan="2" rowspan="3"><img src="img/ubicacion.png" width="600px" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">Villas de la republica #3099</td>
+    
+    
+  </tr>
+  <tr>
+    <td colspan="2">686 5002181</td>
+    
+    
+  </tr>
+  <tr>
+    <td colspan="4">© Copyright 2001-2019 
+Copyright.mx - Todos los derechos reservados – Legal.</td>
+
+  </tr>
+  <tr>
+    <td>
+</td>
+  </tr>
+</table>
+</body>
+</html>
